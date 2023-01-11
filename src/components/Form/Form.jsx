@@ -28,6 +28,7 @@ export class Form extends Component {
         <label>
           Name
           <input
+            value={this.state.name}
             type="text"
             name="name"
             onChange={this.handleChange}
@@ -39,6 +40,7 @@ export class Form extends Component {
         <label>
           Number
           <input
+            value={this.state.number}
             type="tel"
             name="number"
             onChange={this.handleChange}
